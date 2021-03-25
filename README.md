@@ -7,4 +7,4 @@ Two stocks (preferrably in the same sector/industry) are used in this Deep Q net
 We have a five day moving average period whose value is used to determine whether to perform trade actions such and buying and selling.
 Rewards are based on how each action affects our portfolio value.
 
-Note that this doesn't take transaction costs into account.
+Note that the actions are chosen solely to maximize the expected return, i.e., blindly maximizing profit without taking risk into account.
